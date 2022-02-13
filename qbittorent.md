@@ -82,7 +82,7 @@ Fill it as seen below
 
 1. Replace "qbit.yourdomain.tld" with your prefered subdomain followed by your domain url
 2. Type your servers ip in forward hostname box
-3. Forward the port, in our config we had it set to 8081
+3. Forward the port, in our config we had it set to 9885
 4. Choose Cache Assets, Block Common Exploits
 
 ![Setting up Proxy](https://i.imgur.com/44BUNVo.png)
