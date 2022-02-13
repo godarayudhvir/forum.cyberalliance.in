@@ -56,7 +56,7 @@ Fill it as seen below
 
 1. Replace "service.yourdomain.tld" with your prefered subdomain followed by your domain url
 2. Type your servers ip in forward hostname box
-3. Forward the port, jellyfin comes with 8096 by default
+3. Forward the port, Uptime kuma comes with 3001 by default
 4. Choose Cache Assets, Block Common Exploits
 5. Turn on Websockets support	
 
