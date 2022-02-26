@@ -119,6 +119,14 @@ You should now be at the welcome page of wordpress
 ![wordpress welcome](https://i.imgur.com/wpwelcome.png)
 
 ## Making WP Filesystem Management Easy with FileBrowser (Bonus)
+
+### What is Filebrowser ?
+Filebrowser is a WEB Gui based Filemanager that you can use to manager files and folders on your
+server via a web browser, simple as that.
+
+### Installing Filebrowser
+Have a look at our Docker and docker-compose guide here:
+
 ## Changing a few important php settings - Upload size and Post size
 ## Setting up a Basic Site
 ## Setting up a reverse proxy with SSL certificate
