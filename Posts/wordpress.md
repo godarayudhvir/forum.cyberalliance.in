@@ -152,6 +152,9 @@ Once you have made these changes, you will want to restart your web server and p
 
 
 ## Setting up a Basic Site
+
+Have a look at our WP basics guide here: (comingsoon)
+
 ## Setting up a reverse proxy with SSL certificate
 
 1. Install and configure Nginx proxy manager as explained "[here](https://github.com/godarayudhvir/forum.cyberalliance.in/blob/main/Posts/Nginxproxymanager.md)"
