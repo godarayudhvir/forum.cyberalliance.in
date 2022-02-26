@@ -127,7 +127,30 @@ server via a web browser, simple as that.
 ### Installing Filebrowser
 Have a look at our Docker and docker-compose guide here:
 
+https://github.com/godarayudhvir/forum.cyberalliance.in/blob/main/Posts/file-browser.md
+
 ## Changing a few important php settings - Upload size and Post size
+
+If you paused the video and went on using Wordpress and tried to upload something more than 2MB
+you would have noticed that you are limited to uploading at max 2MB/file... not just that
+you also have a limit of Post size. :laughing:
+
+to fix that we need to set it to our desired limit by going to the docker volume for wp(wordpress)
+and finding the .htaccess file | we will then add these two lines there
+
+```
+
+php_value upload_max_filesize xxxxM
+php_value post_max_size yyyyM
+
+```
+
+here we are telling apache to tell php.ini that we are overriding the php.ini for this directory and everything underneath it.
+
+Once you have made these changes, you will want to restart your web server and php services to read in the modifications.
+
+
+
 ## Setting up a Basic Site
 ## Setting up a reverse proxy with SSL certificate
 
