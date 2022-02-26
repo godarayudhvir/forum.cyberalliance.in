@@ -1,7 +1,7 @@
 ## Wordpress
 ### A CMS for blogging and more
 
-*WordPress* is a rich content management system can utilize plugins, widgets, and themes. 
+*WordPress* is a rich content management system which can utilize plugins, widgets, and themes. 
 
 ## Links
 Docker Image : https://hub.docker.com/_/wordpress
