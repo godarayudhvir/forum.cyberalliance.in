@@ -25,7 +25,7 @@ This is a basic login process of a Linux VPS
 - Open terminal (CMD, Tabby, Windows Terminal etc.)
 - type ssh root@x.x.x.x (x.x.x.x is your serverIP)
 - fill in your password for root
-- Update your system `sudo apt update && sudo apt upgrade`(recommended, but not related to login)
+- Update your system `sudo apt update && sudo apt upgrade` (recommended, but not related to login)
 - Now that you are in the system you are ready to do the next part in the guide
 
 ## Install Docker and Docker-compose
@@ -43,7 +43,8 @@ Then, with a single command, you create and start all the services from your con
 
 ### To install Docker and docker-compose
 
-Have a look at our Docker and docker-compose guide here : https://github.com/godarayudhvir/forum.cyberalliance.in/blob/main/Posts/docker.md
+Have a look at our Docker and docker-compose guide here:
+https://github.com/godarayudhvir/forum.cyberalliance.in/blob/main/Posts/docker.md
 
 ## Pull Docker Image for Wordpress
 
@@ -149,3 +150,6 @@ After a while, you site should be live on subdomain.yourdomain.tld no need to ty
 serverip:8080 from now on and plus it has **SSL** now.
 
 ![SSL active](https://i.imgur.com/wpsslactiveproof.png)
+
+Have a look at more of our guides.
+- Thanks
