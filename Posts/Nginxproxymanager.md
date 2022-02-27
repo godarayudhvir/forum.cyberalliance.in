@@ -15,7 +15,7 @@ for hosting a server from home, and there are multiple solutions available
 for that as well, but my preferred solution is NGinX Proxy Manager.
 
 Let's just pretend we have a domain called 
-cyberalliance.com.  We don't, but we will pretend. ( we have .in ☹️ )
+cyberalliance.com.  We don't, but we will pretend. ( we have .in 😢 )
 
 What I like to do is create a subdomain on my domain related to a server or web-application I'm running. 
 Let's say we are running a chat server like RocketChat, 
