@@ -37,7 +37,7 @@ Now if you goto chat.cyberalliance.in... it will take you to thatip but it will 
 Once you have that working, you're essentially done.  
 There are still steps to make sure the site is secured with SSL, but the basics are complete.
 
-#### Actually Installing Nproxy 😅
+#### Actually Installing Nproxy 😃
 
 goto dir root/ and make a new dir nproxy
 inside that make a folder nproxy
