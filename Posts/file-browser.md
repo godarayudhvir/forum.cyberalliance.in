@@ -3,7 +3,7 @@
 
 Meet **File Browser**, an open source, self-hosted alternative to services like Dropbox and other web based file browsers. Today we’ll configure a containerized version of File Browser and have you up and going in just a few minutes. 
 
-We’ll also add a **custom theme** to it 😍 
+We’ll also add a **custom theme** to it 😍 🥰
 
 And lastly we will walk you through **sharing files and folders** 
 
