@@ -54,6 +54,7 @@ https://github.com/godarayudhvir/forum.cyberalliance.in/blob/main/Posts/docker.m
 - browse into the directory cd wp
 - create and open docker-compose file `nano docker-compose.yml`
 - paste in the contents from below
+- Use the command `docker-compose up -d`
 
 **Docker Compose File**
 
@@ -89,6 +90,10 @@ services:
       MYSQL_RANDOM_ROOT_PASSWORD: '1'
     volumes:
       - db:/var/lib/mysql
+
+volumes:
+  wordpress:
+  db:
 
 ```
 ### What have we done so far ?
