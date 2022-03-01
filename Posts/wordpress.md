@@ -75,7 +75,7 @@ services:
     environment:
       WORDPRESS_DB_HOST: db
       WORDPRESS_DB_USER: wpuser2544@
-      WORDPRESS_DB_PASSWORD: WPpa$$w0rd
+      WORDPRESS_DB_PASSWORD: wpPa$$w0rd
       WORDPRESS_DB_NAME: WPdbname
     volumes:
       - wordpress:/var/www/html
@@ -86,7 +86,7 @@ services:
     environment:
       MYSQL_DATABASE: WPdbname
       MYSQL_USER: wpuser2544@
-      MYSQL_PASSWORD: WPpa$$w0rd
+      MYSQL_PASSWORD: wpPa$$w0rd
       MYSQL_RANDOM_ROOT_PASSWORD: '1'
     volumes:
       - db:/var/lib/mysql
