@@ -67,16 +67,16 @@ services:
     image: wordpress
     restart: always
     ports:
-      - 8080:80 
+      - 8082:80 
 
 # you can replace 8080 with port of your choice..
 # your site will be at serverip:8080
 
     environment:
-      WORDPRESS_DB_HOST: db #leave it as is
-      WORDPRESS_DB_USER: exampleuser  #change it to username of choice
-      WORDPRESS_DB_PASSWORD: examplepass #choose a strong password
-      WORDPRESS_DB_NAME: exampledb #name the database
+      WORDPRESS_DB_HOST: db
+      WORDPRESS_DB_USER: wpuser2544@
+      WORDPRESS_DB_PASSWORD: WPpa$$w0rd
+      WORDPRESS_DB_NAME: WPdbname
     volumes:
       - wordpress:/var/www/html
 
@@ -84,9 +84,9 @@ services:
     image: mysql:5.7
     restart: always
     environment:
-      MYSQL_DATABASE: exampledb #choose name for the database
-      MYSQL_USER: exampleuser #choose a username for mysql
-      MYSQL_PASSWORD: examplepass #choose a strong! password for mysql
+      MYSQL_DATABASE: WPdbname
+      MYSQL_USER: wpuser2544@
+      MYSQL_PASSWORD: WPpa$$w0rd
       MYSQL_RANDOM_ROOT_PASSWORD: '1'
     volumes:
       - db:/var/lib/mysql
