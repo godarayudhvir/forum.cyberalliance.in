@@ -2,11 +2,12 @@
 
 So docker is one of those things this. 
 Sometimes it gets overlocked by new developers because at first it is hard to understand
-why we might use it, but it's definitely worth investing a time into because it can make developing 
+why we might use it, 
+but it's definitely worth investing a time into because it can make developing 
 applications either on your own or any team, much easier to manage.
 
 And the way it doest that is by using what's known as containers to run applications in isolated environments
-on a computer like a node application. For example Self hosted web applications. 
+on a computer like a node application.
 
 
 ## What's Docker
