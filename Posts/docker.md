@@ -1,9 +1,61 @@
+# Hello Docker!
+
+So docker is one of those things this. 
+Sometimes it gets overlocked by new developers because at first it is hard to understand
+why we might use it, but it's definitely worth investing a time into because it can make developing 
+applications either on your own or any team, much easier to manage.
+
+And the way it doest that is by using what's known as containers to run applications in isolated environments
+on a computer like a node application. For example Self hosted web applications. 
+
+
+## What's Docker
+
+Imagine if I was in a dev team and I was making an application in a JS environment and that, 
+node.js version that I needed for the application was a very specific version feature.
+I needed to use now. Also imagine that I wanted to share the application with another person on my team
+so that they can feedback on it as well.
+
+Well, before they do that, they'd have to set up their development environment to match mine 
+to the run the appliacation correctly 
+
+that includes
+
+- Same version of node.js
+- Same configurations
+- Project depndancies
+
+So that would be a significant setup process just to get the application running on another computer. 
+Now, imagine the same scenario but with multiple other applications as well, all requiring. 
+They're very old specific versions of nodejs. 
+These applications might need to be run on multiple different machines with probably different operating systems
+Well, that would mean a lot of work every time we want to run a different application, 
+which requires a different development environment,
+
+And that's where containers come into play.
+
+So you can think of a container now as like a box or package, 
+that contains everything, our application needs to run so all the source code dependencies, 
+the correct runtime, environment and versions, etc. 
+
+And this container can run our application then in isolation away from any other processes on our computer.
+So it wouldn't matter what versions of node or python or anything else is installed and our computer. 
+
+Because everything, the application needs to run is inside the container and 
+then this makes it much easier for me or other people in my team. 
+to, run these different applications, on our computers, 
+and we wouldn't need to worry about setting up different versions of anything or installing dependencies 
+because it's all in the container itself, a predictable, consistent and isolated environment.
+
+and what we use to manage these containers is what we call docker.
+
 ### Installing Docker, Docker-compose
 #### Docker and Docker Compose
 Docker was confusing to me at start.  
 I really just didn't get it.  I knew what it was and all... but always ran into errors
 So I gave up, then I found a community of Selfhosters, who would down the road teach me there ways
-and, at some point, it just clicked with me!!
+and, at some point, it just clicked with me!
+
 
 The best explanation I can give, 
 is exactly what their logo tried to exhibit.  
