@@ -26,12 +26,10 @@ that includes
 - Same configurations
 - Project depndancies
 
-So that would be a significant setup process just to get the application running on another computer. 
-Now, imagine the same scenario but with multiple other applications as well, all requiring. 
-They're very old specific versions of nodejs. 
-These applications might need to be run on multiple different machines with probably different operating systems
-Well, that would mean a lot of work every time we want to run a different application, 
-which requires a different development environment,
+So that would be a significant setup process just to get the application running on another computer.
+
+Well, that would mean a lot of work every time we want to run a application, 
+which requires a different development environment.
 
 And that's where containers come into play.
 
